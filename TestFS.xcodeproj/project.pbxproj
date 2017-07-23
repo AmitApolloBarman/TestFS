@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27D87F541F24235400FC8559 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D87F531F24235400FC8559 /* main.c */; };
+		27D87F5C1F24265D00FC8559 /* file_fswatch.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D87F5A1F24265D00FC8559 /* file_fswatch.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		27D87F501F24235400FC8559 /* TestFS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestFS; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D87F531F24235400FC8559 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27D87F5A1F24265D00FC8559 /* file_fswatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file_fswatch.c; sourceTree = "<group>"; };
+		27D87F5B1F24265D00FC8559 /* file_fswatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_fswatch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		27D87F471F24235400FC8559 = {
 			isa = PBXGroup;
 			children = (
+				27D87F5A1F24265D00FC8559 /* file_fswatch.c */,
+				27D87F5B1F24265D00FC8559 /* file_fswatch.h */,
 				27D87F521F24235400FC8559 /* TestFS */,
 				27D87F511F24235400FC8559 /* Products */,
 			);
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D87F541F24235400FC8559 /* main.c in Sources */,
+				27D87F5C1F24265D00FC8559 /* file_fswatch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
